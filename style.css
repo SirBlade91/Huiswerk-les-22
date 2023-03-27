@@ -1,0 +1,27 @@
+.btn{
+    font-weight: bold;
+    padding: 0px 20px 0px 20px;
+    margin: 5px;
+    transition-duration: 1s;
+}
+.btn:hover{
+    background-color: orange;
+}
+img{
+    border-radius: 25%;
+    padding: 5px;
+}
+#copyright{
+    margin: 5px;
+    width: 50px;
+    height: 40px;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+footer{
+    height: 200px;
+}

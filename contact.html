@@ -23,9 +23,22 @@
                 <a href="contact.html" class="btn btn-primary col-2 me-auto">Contact</a>
             </nav>
         </header>
-        <div>
-
-        </div>
+        <p class="h3 row">
+            Contactformulier
+        </p>
+        <form class="row" method="post" action="https://formspree.io/f/xyyazake">
+            <div class="form-group">
+                <label for="voornaam">Voornaam</label>
+                <input id="voornaam" class="form-control" type="text" name="voornaam" placeholder="Voornaam">
+                <label for="achternaam">Achternaam</label>
+                <input type="text" class="form-control" id="achternaam" name="achternaam" placeholder="Achternaam">
+                <label for="email">E-mail</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="E-mailadres">
+                <label for="boodschap">Uw vraag/bericht</label>
+                <textarea name="boodschap" class="form-control" id="boodschap" placeholder="Bericht"></textarea>
+                <button class="btn btn-secondary" type="submit">Verzenden</button>
+            </div>
+        </form>
         <footer class="row">
             <p class="col text-secondary">Notice. This site uses cookies to provide necessary website functionality, improve your experience and analyze our traffic. By using our website, you agree to our legal policies.</p>
             <button id="copyright" class="col-1">OK</button>
